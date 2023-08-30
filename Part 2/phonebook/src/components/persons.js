@@ -1,6 +1,8 @@
 import PersonItemList from "./PersonItemList";
 
 const Persons = ({ personsToShow }) => {
+
+
   return (
     <>
       {personsToShow.map((person) => (
